@@ -1,5 +1,5 @@
 GIT
-  remote: git://github.com/jonatack/will_paginate.git
+  remote: https://github.com/jonatack/will_paginate.git
   revision: 3c861498bdbc643638c1f25bdbe67f93d03be79b
   specs:
     will_paginate (3.0.4)
@@ -88,7 +88,8 @@ GEM
       activesupport (>= 4.1.0)
     haml (4.0.7)
       tilt
-    i18n (0.7.0)
+    i18n (0.9.5)
+      concurrent-ruby (~> 1.0)
     interception (0.5)
     jbuilder (2.6.0)
       activesupport (>= 3.0.0, < 5.1)
